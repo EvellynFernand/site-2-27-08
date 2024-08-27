@@ -1,0 +1,17 @@
+@media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: block;
+      top: 60%;
+    }
+  }
+  @media screen and (min-width: 1728px) {
+    /* Código omitido */
+  
+    .card {
+      width: 60%;
+      margin-left: 3em;
+    }
+  }

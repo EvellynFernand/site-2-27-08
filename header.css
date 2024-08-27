@@ -1,0 +1,27 @@
+@media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções_botão {
+      display: none;
+    }
+  
+    /* Código omitido */
+  }
+  @media screen and (min-width: 1728px) {
+    /* Código omitido */
+  
+    .container__texto {
+      display: block;
+    }
+  }
+  .container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .lista-menu__item:hover > .lista-menu__link {
+      -webkit-text-fill-color: var(--branco);
+      text-decoration: none;
+    }
+  }
